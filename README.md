@@ -4,11 +4,21 @@ My dev environment is all mac os.
 I built a little boilerplate inspired by https://blog.engineyard.com/2015/integrating-react-with-backbone
 
 ## Installation Steps
-- install node 4.0.0 (I use nvm)
+- install node 4.0.0 (I use nvm) - it *might* be ok with a prior version. That's what I worked with atm.
 - `git clone https://github.com/micwehrle/kickoff.git`
+- `cd kickoff`
 - `git checkout fun-with-autocomplete`
+- `npm install`
 - `npm install -g gulp`
--
+- `gulp &`
+- `npm start &`
+- `open localhost:1995`
+
+## Notes
+Not everything does as I'd expect it to. If the weather hadn't been so nice ....
+Use `return` instead of `tab` and refocus on the input .... :-/
+
+
 
 
 # kickoff
