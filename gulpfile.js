@@ -65,7 +65,7 @@ gulp.task('test', ['lint-test', 'browserify-test'], function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('client/**/*.js', ['browserify-client', 'test']);
+  gulp.watch('client/**/*.js*', ['browserify-client', 'test']);
   gulp.watch('test/client/**/*.js', ['test']);
   gulp.watch('client/less/**/*.less', ['styles']);
 });

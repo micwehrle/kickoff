@@ -1,3 +1,16 @@
+# How to query the guide
+
+My dev environment is all mac os.
+I built a little boilerplate inspired by https://blog.engineyard.com/2015/integrating-react-with-backbone
+
+## Installation Steps
+- install node 4.0.0 (I use nvm)
+- `git clone https://github.com/micwehrle/kickoff.git`
+- `git checkout fun-with-autocomplete`
+- `npm install -g gulp`
+-
+
+
 # kickoff
 Boilerplate 2015-09
 
@@ -24,7 +37,3 @@ kickoff
 |- server
 |- test
   |- client
-
-# Toolchain
-
-## gulp, browserify
